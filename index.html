@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infiltração no IFPB 🎬</title>
+  <style>
+    /* Estilo geral */
+    body {
+      font-family: "Segoe UI", Arial, sans-serif;
+      margin: 0;
+      background: linear-gradient(135deg, #1f2937, #111827);
+      color: #f9fafb;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 60px 20px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 15px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: auto;
+    }
+
+    section {
+      max-width: 900px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    h2 {
+      color: #3b82f6;
+      font-size: 1.8rem;
+      margin-bottom: 15px;
+      border-left: 5px solid #3b82f6;
+      padding-left: 10px;
+    }
+
+    .card {
+      background: #1f2937;
+      border-radius: 15px;
+      padding: 25px;
+      margin-bottom: 30px;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.4);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.02);
+    }
+
+    .highlight {
+      font-weight: bold;
+      color: #60a5fa;
+    }
+    
+    /* ESTILOS NOVOS PARA AS ABAS */
+    .tabs-nav {
+      max-width: 900px;
+      margin: 40px auto 0;
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #374151;
+    }
+
+    .tab-button {
+      padding: 10px 25px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      color: #9ca3af;
+      font-size: 1.2rem;
+      font-weight: bold;
+      transition: all 0.3s ease;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -1px; /* Alinha com a borda do container */
+    }
+
+    .tab-button:hover {
+      color: #f9fafb;
+    }
+    
+    .tab-button.active {
+      color: #60a5fa;
+      border-bottom-color: #60a5fa;
+    }
+    
+    .tab-content {
+      display: none; /* Esconde todas as abas por padrão */
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      background: linear-gradient(135deg, #3b82f6, #2563eb);
+      color: white;
+      padding: 12px 24px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: linear-gradient(135deg, #60a5fa, #3b82f6);
+      box-shadow: 0 4px 15px rgba(59,130,246,0.5);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      margin-top: 40px;
+      background: #111827;
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🎬 Chamada para Voluntários!</h1>
+    <p>Participe da produção do curta <span class="highlight">"Infiltração no IFPB"</span>.  
+    Se você tem paixão por cinema e quer fazer parte de algo criativo, venha com a gente!</p>
+  </header>
+  
+  <nav class="tabs-nav">
+    <button class="tab-button active" data-tab="inicio">Início</button>
+    <button class="tab-button" data-tab="atos">Atos</button>
+    <button class="tab-button" data-tab="formulario">Formulário</button>
+  </nav>
+
+  <div id="inicio" class="tab-content" style="display: block;">
+    <section>
+      <div class="card">
+        <h2>📖 Sinopse</h2>
+        <p>Uma agente russa, disfarçada de estudante, se infiltra no IFPB, bem no sertão da Paraíba, com uma missão: investigar e acabar com uma seita misteriosa que atua dentro do campus. Lá, ela acaba se aproximando de um colega de turma carismático, que vira sua principal fonte de informações e o seu melhor amigo, em quem ela realmente confia. À medida que as coisas avançam, ela percebe que seu maior aliado pode ser também seu maior inimigo, e que ele está jogando seu próprio jogo, movido por vingança e sede de poder.</p>
+      </div>
+    </section>
+  </div>
+
+  <div id="atos" class="tab-content">
+    <section>
+      <div class="card">
+        <h2>🎭 Estrutura Narrativa</h2>
+        <p><span class="highlight">Ato I – A Infiltração</span><br>Livotsky chega em Cajazeiras com uma identidade e um passado bem montado, com um objetivo bem definido: descobrir quem está por trás de uma seita que opera de forma discreta dentro do IFPB. Inicialmente, ela age sozinha, investigando com cuidado, ouvindo conversas pelos corredores e achando pistas escondidas, como símbolos estranhos em livros antigos da biblioteca e em paredes ao redor do campus. No meio disso tudo, ela conhece um aluno bem sociável e popular, que se oferece para ajudá-la. Aos poucos, os dois criam uma relação de confiança, e ele começa a participar da investigação.</p>
+        <p><span class="highlight">Ato II – A Conspiração</span><br>Ela descobre que a seita, na verdade, funciona como uma sociedade secreta disfarçada de um grupo de prestígio. Essa organização realiza um baile anual, que homenageia o "melhor aluno do ano", despertando interesse entre os alunos, mas essa honraria, na verdade, é o disfarce para um ritual sombrio. O "aluno perfeito" é justamente o escolhido como rei do baile, se tornando uma vítima da seita. Livotsky continua investigando ao lado do amigo, mas alguns sinais começam a incomodá-la: ele sabe demais, dizendo coisas que alguém desinformado não deveria saber, sempre aparece na hora certa, e parece estar manipulando as coisas para levá-la a certas conclusões. Mesmo assim, ela insiste em confiar nele, trazendo sérias consequências. O que ela não sabe é que ele está usando a investigação para atingir um objetivo pessoal, se vingar da morte do irmão (uma vítima passada da seita) e tomar o controle do grupo para si, estando obcecado pelo poder que o controle da organização proporcionaria: bons empregos, contatos e poder na região.</p>
+        <p><span class="highlight">Ato III – A Revelação</span><br>O clímax acontece quando os dois invadem o lugar onde a seita guarda os registros e segredos. Lá, eles encontram uma caixa com documentos, listas de membros e tudo que pode expor a organização. Quando Livotsky acha que venceu e que sua missão chegou ao fim, o amigo revela suas verdadeiras intenções. Ele não era só contra a seita, tinha seu próprio plano, e ela era só uma peça que ele usou pra chegar até o poder da seita.</p>
+      </div>
+    </section>
+  </div>
+  
+  <div id="formulario" class="tab-content">
+    <section style="text-align:center;">
+      <h2>🚀 Interessado?</h2>
+      <p>Preencha nosso formulário de inscrição e conte um pouco sobre você.  
+      Juntos, podemos criar algo incrível!</p>
+      <a href="https://forms.gle/DFP9Ru8T9m66YW7JA" target="_blank" class="btn">📌 Preencher Formulário</a>
+    </section>
+  </div>
+
+
+  <footer>
+    <p>Feito com ❤️ no IFPB - Cajazeiras</p>
+  </footer>
+
+<script>
+  // SCRIPT PARA CONTROLAR AS ABAS
+  document.addEventListener('DOMContentLoaded', function() {
+    const tabButtons = document.querySelectorAll('.tab-button');
+    const tabContents = document.querySelectorAll('.tab-content');
+
+    tabButtons.forEach(button => {
+      button.addEventListener('click', () => {
+        // Remove a classe 'active' de todos os botões
+        tabButtons.forEach(btn => btn.classList.remove('active'));
+        // Adiciona a classe 'active' ao botão clicado
+        button.classList.add('active');
+
+        // Esconde todos os conteúdos
+        tabContents.forEach(content => content.style.display = 'none');
+
+        // Mostra o conteúdo correspondente ao botão clicado
+        const tabId = button.dataset.tab;
+        document.getElementById(tabId).style.display = 'block';
+      });
+    });
+  });
+</script>
+
+</body>
+</html>
